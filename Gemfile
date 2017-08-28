@@ -43,6 +43,8 @@ end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
+  gem 'devise'
+  gem 'rails_admin', '~> 1.2'
   gem 'annotate'
   gem 'better_errors'
   gem 'binding_of_caller'
